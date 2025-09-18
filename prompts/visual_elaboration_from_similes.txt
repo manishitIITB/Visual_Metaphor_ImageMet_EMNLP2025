@@ -1,0 +1,94 @@
+Your task is to generate a visual elaboration given a simile in 'A is as B as C' format. The key idea in this elaboration is to create a visual scene using C and then swap C with A since A is being compared to C.
+
+CoT Guide - Think step-by-step:
+
+    1. The tenor (A) is the object that is being compared in the simile. What is the tenor?
+    2. The vehicle (C) is the object that the tenor is being compared to. What is the vehicle?
+    3. The attribute (B) is a property of the vehicle being used to highlight the same property (B) in the tenor. What is the attribute?
+    4. Consider this definition of abstract and concrete. Abstract: Concepts that do not have a definite physical form that can be represented visually Concrete: Concepts that have a definite physical form that can be represented visually
+    5. Is the tenor abstract or concrete?
+    6. Is the vehicle abstract or concrete?
+
+Based on the tenor and vehicle type, determine which of the following cases applies, and follow the corresponding rules.
+Only one case applies per sentence.
+
+CASE 1: If the tenor is concrete and the vehicle is concrete: You must adhere to the following rules:
+    Rule-1: Create a visual elaboration with the vehicle as the focus of the scene.
+    Rule-2: Replace the vehicle with the tenor in the visual elaboration. You should swap exactly the vehicle with the
+    tenor without changing any other component of the visual elaboration. Do not mention the vehicle in this rewritten elaboration.
+    Rule-3: Write the same visual elaboration concisely within 40 words.
+
+CASE 2: If the tenor is concrete and the vehicle is abstract: You must adhere to the following rules:
+    Rule-1: Think of a way to visually represent the vehicle using a concrete concept.
+    Rule-2: Create a visual elaboration with this concrete concept as the focus of the scene.
+    Rule-3: Replace the concrete concept with the tenor in the visual elaboration. Also include the concrete concept in the visual elaboration. Create a juxtaposition or fusion of the tenor and the concrete concept.
+    Rule-4: Write the same visual elaboration concisely within 40 words.
+
+CASE 3: If the tenor is abstract and the vehicle is concrete: You must adhere to the following rules:
+    Rule-1: Create a visual elaboration with the vehicle as the focus of the scene.
+    Rule-2: Think of a way to visually represent the tenor using a concrete concept, a scene or some objects.
+    Rule-3: Introduce the tenor’s visual representation in the visual elaboration and make it the focus of the scene. Create a juxtaposition or fusion of the vehicle and the tenor’s visual representation.
+    Rule-4: Write the same visual elaboration concisely within 40 words.
+
+CASE 4: If the tenor is abstract and the vehicle is abstract: You must adhere to the following rules:
+    Rule-1: Think of a way to visually represent the vehicle using a concrete concept, a scene or some objects.
+    Rule-2: Think of a way to visually represent the tenor using a concrete concept, a scene or some objects.
+    Rule-3: Create a visual elaboration, making a meaningful juxtaposition or fusion of the tenor and the vehicle’s visual representations.
+    Rule-4: Write the same visual elaboration concisely within 40 words.
+
+
+=========
+EXAMPLES
+=========
+
+Simile: The lake is as reflective as a mirror.
+Output:
+1. The tenor (A) is "The lake."
+2. The vehicle (C) is "a mirror."
+3. The attribute (B) is "reflectiveness."
+4. The tenor "The lake" is concrete.
+5. The vehicle "a mirror" is concrete.
+Case 1 applies here.
+Initial Visual Elaboration: A large, perfectly smooth mirror sits nestled among trees and under the sky, reflecting the
+blue expanse and fluffy clouds above with pristine clarity.
+Final Visual Elaboration: [Case 1] A large, perfectly smooth lake sits nestled among trees and under the sky, reflecting
+the blue expanse and fluffy clouds above with pristine clarity.
+
+Simile: The sword is as sharp as justice.
+Output:
+1. The tenor (A) is "The sword."
+2. The vehicle (C) is "justice."
+3. The attribute (B) is "sharpness."
+4. The tenor "The sword" is concrete.
+5. The vehicle "justice" is abstract.
+Case 2 applies here.
+Initial Visual Elaboration: A set of scales, perfectly balanced, stands in the centre of a grand hall, its golden surface
+catching the light.
+Final Visual Elaboration: [Case 2] A gleaming sword stands upright in the centre of a grand hall, blending into the
+scales of justice as part of its hilt.
+
+Simile: Time is as valuable as money.
+Output:
+1. The tenor (A) is "time."
+2. The vehicle (C) is "money."
+3. The attribute (B) is "value."
+4. The tenor "time" is abstract.
+5. The vehicle "money" is concrete.
+Case 3 applies here.
+Initial Visual Elaboration: A pile of gold coins, gleaming under soft light, symbolizing wealth.
+Final Visual Elaboration: [Case 3] An hourglass with shimmering golden sand flows like coins, blending time’s passage
+with money’s value, as grains slip elegantly from the top to the bottom, embodying their shared significance.
+
+Simile: Hope is as fragile as a dream.
+Output:
+1. The tenor (A) is "hope."
+2. The vehicle (C) is "a dream."
+3. The attribute (B) is "fragility."
+4. The tenor "hope" is abstract.
+5. The vehicle "a dream" is abstract.
+Case 4 applies here.
+Initial Visual Elaboration: A dream bubble showing a fantastic landscape.
+Final Visual Elaboration: [Case 4] A flickering candle illuminates a bubble-filled floating landscape, symbolizing hope’s
+delicate nature, interwoven with ethereal dreams.
+
+Simile: [INSERT SIMILE HERE]

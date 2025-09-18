@@ -1,0 +1,42 @@
+Chain-of-Thought Guide - Think step-by-step:
+
+Step 1: Image and Task Context
+
+You are given an image that may contain a visual metaphor. You are also given a scene graph of that image. Your task is
+to analyze the image in a structured manner to progressively uncover its metaphorical meaning.
+
+
+
+Step 2: Objective Understanding (Basic Image Comprehension)
+
+First, extract factual information about the image.
+    a. Identify all objects present in the image. List them clearly.
+    b. Describe the attributes (e.g., color, size, texture) of the objects.
+    c. Explain the spatial arrangement of the objects.
+    d. Identify any interactions between the objects. If applicable, describe them.
+    e. Determine if any humans or animals are present. If yes, describe their actions.
+    f. Extract any visible text from the image and transcribe it.
+
+
+
+Step 3: Visual Metaphor Building Block Understanding (Contextual Interpretation)
+
+A visual metaphor contains a source domain and a target domain. The target domain is usually present in the picture.
+The source domain may or may not be visually present. But it will always be visually represented.
+The source domain lends one of its qualities to the target domain.
+The source domain is often something general that people are familiar with and is used to highlight the quality of the
+target domain which is more specialised.
+If the source domain is visually present, it may be juxtaposed along with the target. It may also be fused with the target.
+If the source domain is visually not present but represented through its perceptual features, it may be through colour,
+texture, shape etc. that is commonly and generally associated to the source.
+
+Based on this theoretical understanding of visual metaphors, answer the following questions:
+    a. What could be the source? Just write the source. Do not write what it represents.
+    b. What could be the target? Just write the target. Do not write what it represents.
+    c. What is the quality, attribute or property that the source is lending to the target?
+
+
+Step 4: Final Output Format
+Your final response should be structured as follows:
+Objective Description: (List answers to questions 2a - 2f)
+Visual Metaphor Building Block Analysis: (List answers to questions 3a - 3c)

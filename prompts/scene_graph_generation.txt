@@ -1,0 +1,8 @@
+For the provided image, generate a scene graph in JSON format that includes the following:
+
+Objects that are prominently visible in the image.
+Object attributes that are relevant to its description.
+Object relationships between the visible objects.
+Object textures for each visible object.
+
+Scene Graph:
